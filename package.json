@@ -1,0 +1,27 @@
+{
+  "name": "xydzy_blog",
+  "version": "1.0.0",
+  "description": "xydzy's blog",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs --temp docs/.vuepress/.temp",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "xydzy",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xydzy1/xydzy_blog.git"
+  },
+  "keywords": [
+    "xydzy",
+    "blog"
+  ],
+  "bugs": {
+    "url": "https://github.com/xydzy1/xydzy_blog/issues"
+  },
+  "homepage": "https://github.com/xydzy1/xydzy_blog#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-rc.0"
+  }
+}
