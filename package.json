@@ -4,8 +4,8 @@
   "description": "xydzy's blog",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vuepress dev docs --temp docs/.vuepress/.temp",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev docs --temp docs/.vuepress/.temp",
+    "build": "vuepress build docs"
   },
   "author": "xydzy",
   "license": "ISC",
