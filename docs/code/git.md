@@ -67,7 +67,21 @@ git reset --soft HEAD~1
 git reset <commit id> <filename>
 ```
 
-### 根据远程分支新建本地分支
+### 本地分支相关操作
+
+新建本地分支
+
+```sh
+git checkout -b name
+```
+
+删除本地分支
+
+```sh
+git branch -d name
+```
+
+根据远程分支新建本地分支
 
 ```sh
 git checkout -b name origin/name
