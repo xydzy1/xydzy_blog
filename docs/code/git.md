@@ -49,6 +49,12 @@ git commit -m "info"
 git push origin/branch_name
 ```
 
+上传更改到指定分支
+
+```sh
+git push --set-upstream orgin [name] -u
+```
+
 ### 撤销已经commit但未push的更改
 
 ```sh
