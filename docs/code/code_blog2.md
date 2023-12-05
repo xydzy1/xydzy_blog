@@ -119,6 +119,7 @@ class BottleBlock(nn.Module):
         Fx = self.relu(Fx)
         return Fx
 ```
+### ResNet
 
 然后就可以写残差网络函数了，具体的残差网络函数如下：
 
