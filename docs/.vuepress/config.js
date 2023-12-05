@@ -21,7 +21,9 @@ export default {
     sidebar: {
         '/code/': [
             'Intro',
-            'git'
+            'git',
+            'code_blog1',
+            'code_blog2'
         ],
         '/math/': [
             'Intro'
